@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Privacy Policy — Diagnostic Assistant</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  body { font-family: -apple-system, sans-serif; max-width: 640px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #222; }
+  h1 { font-size: 22px; } h2 { font-size: 16px; margin-top: 28px; }
+</style>
+</head>
+<body>
+  <h1>Privacy Policy — Diagnostic Assistant</h1>
+  <p><em>Last updated: July 28, 2026</em></p>
+
+  <h2>What we collect</h2>
+  <p>When you create an account, we store your email address and an encrypted password (via Supabase Auth). When you run a diagnostic, we store the text you submit and the response generated, tied to your account, so you can search your own history later.</p>
+
+  <h2>How your data is used</h2>
+  <p>Text you submit for diagnosis is sent to Google's Gemini API to generate a response. It is not used to train any model on our side, and is not shared with any third party except the AI provider needed to generate your result, and Stripe for billing (which never sees your diagnostic content — only payment details).</p>
+
+  <h2>Data retention</h2>
+  <p>Your query history is retained until you delete your account. You can request deletion at any time by emailing diagnosticassistant.help@gmail.com.</p>
+
+  <h2>Permissions this extension requests</h2>
+  <ul>
+    <li><strong>storage</strong> — to keep you signed in between popup opens</li>
+    <li><strong>contextMenus</strong> — to add the "Diagnose this" right-click option</li>
+  </ul>
+  <p>This extension does not read or modify the content of the pages you visit. It only acts on text you explicitly select and submit.</p>
+
+  <h2>Contact</h2>
+  <p>diagnosticassistant.help@gmail.com</p>
+</body>
+</html>
